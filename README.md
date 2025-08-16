@@ -9,6 +9,8 @@
 ユーザー認証: ログイン機能により、ユーザーごとのタスクを安全に管理できます。
 
 日次バッチ処理: 特定のタスクを自動的に更新するバッチ処理を実装しました。
+（現在は１日１回すべてのタスクを削除するロジックになっています。
+　実際に使う場合はメールなどで未完了タスクを通知などがいいと思っています。現状はバッチ処理が走り何かしろの処理が走る機能として実装しています）
 
 使用技術
 言語: Java 21
@@ -33,7 +35,7 @@ Java: JDK 21
 インストールと実行方法
 リポジトリのクローン
 
-git clone [https://github.com/your-username/your-repository.git](https://github.com/your-username/your-repository.git)
+git clone [https://github.com/[your-username/your-repository.git](https://github.com/jushidestudio/IbIist.git)
 cd your-repository
 
 必要なライブラリのインストールとビルド
@@ -65,7 +67,7 @@ UI/UXの向上: タスクの登録・編集をモーダル形式にすること�
 DB接続設定: ローカル環境とGCP環境でのDB接続設定の違いを理解し、環境に応じた設定の管理方法を習得しました。
 
 ライセンス
-このプロジェクトは、[ライセンス名] の下で公開されています。（例: MIT License）
+このプロジェクトは、MIT License の下で公開されています。
 
 連絡先
 ご質問やご意見がありましたら、GitHubプロフィール または ポートフォリオサイト を通じてお気軽にご連絡ください。
